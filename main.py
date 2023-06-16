@@ -120,7 +120,7 @@ class GameScreen(pyglet.window.Window):
         self.r_value = rm.randrange(300, 310)
         self.l_y_shell = 0
         self.l_y_shell2 = 0
-        pyglet.clock.schedule_interval(self.update, 1/60)
+        pyglet.clock.schedule_interval(self.update, 1/144)
 
     def chek_collishon(self, f_hitbox, t_hitbox):
         x1 = f_hitbox.x
